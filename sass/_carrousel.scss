@@ -6,10 +6,23 @@
     border-radius: 50%;
 }
 
-.carousel.pointer-event {
+#carouselExampleIndicators {
     background-color: variables.$colornoir;
+    padding-top: 30px;
+    margin: 50px auto;
 }
 
 .carousel-indicators {
     position: relative;
+}
+
+#quantite {
+    border: 6px solid variables.$colorblue;
+    width: 95px;
+    border-radius: 0.25rem;
+}
+
+.btn {
+    background-color: variables.$colorblue;
+    color: variables.$colorblanc;
 }

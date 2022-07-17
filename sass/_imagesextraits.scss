@@ -1,0 +1,33 @@
+@use './variables';
+
+.images {
+    margin: 20px 0;
+
+    p {
+        margin: 10px;
+        text-align: center;
+        color: variables.$colorblanc;
+    }
+}
+
+.imagesextraits {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: variables.$colorblue;
+
+    .imagesextraits--p, h2 {
+        text-align: center;
+        color: variables.$colorblanc;
+        margin: 20px;
+    }
+}
+
+form {
+    text-align: center;
+    margin: 20px;
+
+    input {
+        border-radius: 0.25rem;
+        border: 4px solid variables.$colorblanc;
+    }
+}

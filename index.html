@@ -11,10 +11,10 @@
     <a class="screen-reader-text" href="#content">Aller au contenu principal</a>
 
     <header>
-      <div class="container"> 
+      <div class="container header"> 
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
-            <img src="img/iconTopGun.svg" href="index.html" alt="icon Top Gun" width="70" height="58" class="d-inline-block align-text-top">
+            <a href="index.html"><img src="img/iconTopGun.svg" alt="icon Top Gun" width="80" height="72" class="d-inline-block align-text-top"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -34,169 +34,198 @@
     </header>
 
     <main>
-      <div class="container">
+      <div class="container carrousel">
+        <div class="row">
 
-        <section class="carrousel">
-          <div class="row">
-            <div class="col-6">
+          <div class="col-6">
+            <h1>Présentation de<br>TOP GUN : MAVERICK</h1>
+            <p>Après plus de 30 ans de service comme pilote d’élite de la Navy, Pete « Maverick » Mitchell (Tom Cruise) est dans son élément, continuant à repousser les limites du possible comme courageux pilote d’essai et évitant toute promotion qui le clouerait au sol. Alors qu’il dirige un détachement de Top Guns fraîchement diplômés pour une mission qu’aucun pilote vivant n’a encore vécue, Maverick fait la rencontre du lieutenant Bradley Bradshaw (Miles Teller), surnommé « Rooster », qui est le fils de son vieil ami officier intercepteur de radar, le lieutenant Nick Bradshaw, alias « Goose ». Face à un avenir incertain et aux prises avec les fantômes de son passé, Maverick doit confronter ses peurs les plus profondes qui culminent au cours d’une mission qui requiert l’ultime sacrifice de la part du pilote qui l’entreprend.</p>    
+            <label class="quantite"></label>
+            <input type="number" class="quantite" id="quantite" min="0" placeholder="Quantité">
+            <button type="submit" class="btn">Achetez maintenant</button>
+          </div>
 
-            </div>
-            <div class="col-6">
-              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/TopGun Maverick.jpg" class="d-block w-100" alt="Top Gun Maverick">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/TopGun Personnage.jpg" class="d-block w-100" alt="Top Gun Personnage">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/TopGun Amis.jpg" class="d-block w-100" alt="Top Gun Amis">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/TopGun trailer.jpg" class="d-block w-100" alt="Top Gun trailer">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="img/TopGun Acteurs1.jpg" class="d-block w-100" alt="Top Gun Acteurs">
-                  </div>
+          <div class="col-6">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/TopGun Maverick.jpg" class="d-block w-100" alt="Top Gun Maverick">
                 </div>
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <div class="carousel-item">
+                  <img src="img/TopGun Personnage.jpg" class="d-block w-100" alt="Top Gun Personnage">
                 </div>
+                <div class="carousel-item">
+                  <img src="img/TopGun Amis.jpg" class="d-block w-100" alt="Top Gun Amis">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/TopGun trailer.jpg" class="d-block w-100" alt="Top Gun trailer">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/TopGun Acteurs1.jpg" class="d-block w-100" alt="Top Gun Acteurs">
+                </div>
+              </div>
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </div>
 
-        <section class="imagesextraits">
-          <div class="row">
-            <div class="col-4">
-              <img class="d-block w-100" src="img/Val Kilmer.jpg" alt="Val Kilmer">
-            </div>
-            <div class="col-4">
-              <img  class="d-block w-100" src="img/Top-Gun-2-Filles.jpg" alt="Tom Cruise avec les deux actrices">
-            </div>
-            <div class="col-4">
-              <img class="d-block w-100" src="img/Miles Teller.jpg" alt="Miles Teller">
-            </div>
+      <div class="container imagesextraits">
+        <h2>Images et Extraits</h2>
+        <p class="imagesextraits--p">VOICI CE QUE SONT DEVENUS QUELQUES ACTEURS DE TOP GUN, AINSI QU'UN EXTRAIT DU FILM ?</p>
+        <form>
+          <label for="email" class="email"></label>
+          <input type="email" id="email" placeholder="email">
+          <button type="submit" class="btn btn-primary">S'inscrire</button>
+        </form>
+        <div class="row images">
+          <div class="col-4">
+            <img class="d-block w-100" src="img/Val Kilmer.jpg" alt="Val Kilmer">
+            <p>Val Kilmer</p>
           </div>
-          <div class="row">
-            <div class="offset-3 col-6">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3RSkiZFmG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
+          <div class="col-4">
+            <img  class="d-block w-100" src="img/Tom Cruise.jpg" alt="Tom Cruise">
+            <p>Tom Cruise</p>
           </div>
-        </section>
+          <div class="col-4">
+            <img class="d-block w-100" src="img/Miles Teller.jpg" alt="Miles Teller">
+            <p>Miles Teller</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="offset-3 col-6">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Y3RSkiZFmG8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
 
-        <section class="acteurs">
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Tom Cruise Photo.jpg" class="card-img-top" alt="Photo Tom Cruise">
-                <div class="card-body">
-                  <h5 class="card-title">Tom Cruise (Pete Mitchell)</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+      <div class="container acteurs">
+        <div class="row row-cols-1 row-cols-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Tom Cruise Photo.jpg" class="card-img-top" alt="Photo Tom Cruise">
+              <div class="card-body">
+                <h5 class="card-title">Tom Cruise<br>(Pete Mitchell)</h5>
+                <p class="card-text">Tom Cruise, 59 ans, a présenté son film via un message vidéo aux participants du CinemaCon de Las Vegas, grand-messe annuelle des propriétaires de salles de cinéma. Réputé pour sa capacité à effectuer lui-même un grand nombre de cascades, c'est perché sur un avion en plein vol au-dessus de l'Afrique du Sud qu'il s'est adressé à eux. «Salut tout le monde. J'aurais aimé être là avec vous. Désolé pour le bruit», hurle l'acteur par-dessus les vrombissements du moteur de l'appareil et les sifflements du vent.</p>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Miles Teller Photo.jpg" class="card-img-top" alt="Miles Teller Photo">
-                <div class="card-body">
-                  <h5 class="card-title">Miles Teller (Bradley Bradshaw)</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Val Kilmer Photo.jpg" class="card-img-top" alt="Val Kilmer Photo">
-                <div class="card-body">
-                  <h5 class="card-title">Val Kilmer (Iceman)</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Glen Powell Photo.jpg" class="card-img-top" alt="Glen Powell Photo">
-                <div class="card-body">
-                  <h5 class="card-title">Glen Powell (Hangman)</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
               </div>
             </div>
           </div>
-          <div class="row row-cols-1 row-cols-md-3 g-4"></div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Jennifer Connelly Photo.jpg" class="card-img-top" alt="Jennifer Connelly Cruise">
-                <div class="card-body">
-                  <h5 class="card-title">Jennifer Connelly (Penny Benjamin)</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Miles Teller Photo.jpg" class="card-img-top" alt="Miles Teller Photo">
+              <div class="card-body">
+                <h5 class="card-title">Miles Teller<br>(Bradley Bradshaw)</h5>
+                <p class="card-text">C'est lors d'une entrevue faite par vidéoconférence avec Extra que l'acteur Miles Teller a abordé sa fameuse danse dans le film Top Gun: Maverick, rapidement devenue virale sur internet. En effet, lors d'une courte scène où l'on voit l'acteur torse nu danser sous le soleil est devenu un GIF hyper populaire dont tout le monde parle.</p>
               </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Lewis Pullman Photo.jpg" class="card-img-top" alt="Lewis Pullman Photo">
-                <div class="card-body">
-                  <h5 class="card-title">Lewis Pullman (Bob)</h5>
-                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Monica Barbaro Photo.jpg" class="card-img-top" alt="Monica Barbaro Photo">
-                <div class="card-body">
-                  <h5 class="card-title">Monica Barbaro (Phoenix)</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card h-100">
-                <img src="img/Jay Ellis Photo.jpg" class="card-img-top" alt="Jay Ellis Photo">
-                <div class="card-body">
-                  <h5 class="card-title">Jay Ellis (Payback)</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                </div>
-                <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
-                </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
               </div>
             </div>
           </div>
-        </section>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Val Kilmer Photo.jpg" class="card-img-top" alt="Val Kilmer Photo">
+              <div class="card-body">
+                <h5 class="card-title">Val Kilmer<br>(Iceman)</h5>
+                <p class="card-text">La suite de Top Gun sans Iceman n’aurait pas eu la même saveur. Mais ce n’est plus un secret depuis longtemps: Val Kilmer apparaît bien dans le deuxième volet du film, au cinéma depuis ce mercredi 25 mai, pour une scène très émouvante. Et sa participation, malgré la maladie, était une condition sine qua non pour Tom Cruise.</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Glen Powell Photo.jpg" class="card-img-top" alt="Glen Powell Photo">
+              <div class="card-body">
+                <h5 class="card-title">Glen Powell<br>(Hangman)</h5>
+                <p class="card-text">La suite de "Top Gun" rajoute un acteur à son escadron. Glen Powell donnera bien la réplique à Tom Cruise, dévoilent les médias américains. Une annonce inattendue puisque l'acteur américain avait perdu le rôle du fils de Nick "Goose" Bradshaw face à Miles Teller. Les deux acteurs étaient en concurrence pour décrocher le rôle du fils du meilleur ami décédé de Maverick, anciennement joué par Anthony Edwards.</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row row-cols-1 row-cols-4 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Jennifer Connelly Photo.jpg" class="card-img-top" alt="Jennifer Connelly Cruise">
+              <div class="card-body">
+                <h5 class="card-title">Jennifer Connelly<br>(Penny Benjamin)</h5>
+                <p class="card-text">Ce n’est un secret pour personne que Jennifer Connelly a été officiellement choisie pour incarner Penny Benjamin, la propriétaire du bar pilote que Pete « Maverick » Mitchell et ses élèves de Top Gun fréquentent dans la bande-annonce officielle du film et dans divers documents promotionnels. Cependant, les jeunes spectateurs d’aujourd’hui et les spectateurs moins observateurs d’hier ne savent peut-être pas ou ont oublié qu’une certaine Penny Benjamin était déjà mentionnée dans le Top Gun original de 1986.</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Lewis Pullman Photo.jpg" class="card-img-top" alt="Lewis Pullman Photo">
+              <div class="card-body">
+                <h5 class="card-title">Lewis Pullman<br>(Bob)</h5>
+                <p class="card-text">Les événements de Top Gun : Maverick voyez Pete « Maverick » Mitchell de Tom Cruise former un groupe de jeunes pilotes pour une mission dangereuse. L’un de ces pilotes est le lieutenant Robert « Bob » Floyd, calme mais extrêmement capable, joué par Lewis Pullman, le fils de Bill Pullman, qui a passé du temps dans le cockpit en jouant le président Thomas Whitmore dans Le jour de l’indépendance (un titre dont il est en partie responsable). En fait, l’aîné Pullman a donné à son fils des conseils liés au film d’action de science-fiction de 1996 en apprenant que Lewis apparaîtrait dans Maverick.</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Monica Barbaro Photo.jpg" class="card-img-top" alt="Monica Barbaro Photo">
+              <div class="card-body">
+                <h5 class="card-title">Monica Barbaro<br>(Phoenix)</h5>
+                <p class="card-text">Dans Top Gun : Maverick, elle est Phoenix, lieutenante et pilote téméraire. Monica Barbaro a été particulièrement remarquée dans cette suite du classique des années 80 réalisé par le regretté Tony Scott. Un sequel qui rencontre un succès monstre en salles (déjà 2 millions d'entrées en France et 550 millions de dollars au box-office mondial), et où l'actrice de 30 ans côtoie Tom Cruise et Jennifer Connelly.</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="img/Jay Ellis Photo.jpg" class="card-img-top" alt="Jay Ellis Photo">
+              <div class="card-body">
+                <h5 class="card-title">Jay Ellis<br>(Payback)</h5>
+                <p class="card-text">Non seulement le père d'Ellis était dans l'Air Force, mais ses grands-pères et beaux-grands-pères l'étaient également. L'acteur a compris le sacrifice d'être dans l'armée comme quelqu'un avec des souvenirs de première main à ce sujet, y compris se déplaçant souvent beaucoup à cause de cela. Par NBC News, Ellis a déclaré que Top Gun: Maverick lui avait permis de comprendre comment les personnes qui pilotent des avions à récation dans l'armée de l'air "sont choisies et comment elles se sont entraînées pour le faire".</p>
+              </div>
+              <div class="card-footer">
+                <a href="https://www.facebook.com" target="_blank"><img class="icon" src="img/facebook2.png" alt="icone facebook"></a>
+                <a href="https://www.instagram.com" target="_blank"><img class="icon" src="img/instagram2.png" alt="icone instagram"></a>
+                <a href="https://twitter.com" target="_blank"><img class="icon" src="img/twitter2.png" alt="icone twitter"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
-        <section class="textesphotos">
+      <div class="container textesphotos">
 
-        </section>
       </div>
     </main>
 
