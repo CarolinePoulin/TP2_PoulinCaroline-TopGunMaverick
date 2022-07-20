@@ -1,0 +1,11 @@
+@use './variables';
+
+.directionartistique--titre {
+    text-align: center;
+    padding: 40px 0;
+}
+
+button.accordion-button.collapsed {
+    border: 2px solid variables.$colorgris;
+    margin-bottom: 5px;
+}

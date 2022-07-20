@@ -1,2 +1,8 @@
 @use './variables';
+@use './mixins';
 
+@include mixins.respond-to('tablet') {
+    .presentation {
+        text-align: center;
+    }
+}

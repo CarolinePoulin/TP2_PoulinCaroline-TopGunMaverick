@@ -1,2 +1,25 @@
 @use './variables';
 
+.footer {
+    padding-top: 40px;
+
+    div.row {
+        margin: 20px 0;
+    }
+}
+
+.reseau {
+    text-align: center;
+}
+
+.nom {
+    text-align: right;
+}
+
+.bordure {
+    border-top: 3px solid variables.$colornoir;
+
+    p {
+        padding-top: 20px;
+    }
+}

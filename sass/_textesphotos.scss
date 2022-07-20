@@ -1,0 +1,42 @@
+@use './variables';
+@use './mixins';
+
+.textesphotos {
+    background-color: variables.$colorblue;
+    color: variables.$colorblanc;
+
+    img {
+        max-width: 100%;
+    }
+
+    .textesphotos--row {
+        padding: 40px;
+    }
+
+    .textesphotos--textes {
+        margin: auto;
+    }
+    
+    .textesphotos--photos {
+        text-align: center;
+    }
+}
+
+.icon {
+    border-radius: 50%;
+    width: 40px;
+}
+
+@include mixins.respond-to('mi-desktop') {
+    .textesphotos--row {
+        padding: 5px;
+    }
+}
+
+@include mixins.respond-to('tablet') {
+    .textes {
+        text-align: center;
+        padding-top: 40px;
+    }
+}
+
